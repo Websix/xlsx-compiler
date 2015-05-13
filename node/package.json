@@ -1,0 +1,8 @@
+{
+  "name": "xlsx-compiler",
+  "dependencies": {
+    "xlsx": "0.8.*"
+  },
+  "description": "Utility to compile a JSON into a XLSX file",
+  "repository": "https://github.com:Websix/xlsx-compiler.git"
+}

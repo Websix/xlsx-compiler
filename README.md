@@ -26,8 +26,9 @@ Usage
 
 Install the package:
 
-```composer install --save websix/xlsx-compiler```
+```composer require websix/xlsx-compiler```
 
+Use the XlsxCompiler class in your script:
 
 ``` PHP
 <?php
@@ -50,6 +51,10 @@ $xlsx = $compiler->compileJson($json);
 API
 ---
 
-Package namespace: Websix\XlsxCompiler;
+### Namespace: Websix\XlsxCompiler;
 
-Class name: XlsxCompiler
+### Class name: XlsxCompiler
+
+### #compileJson($json) -> blob
+
+Pass in $json a JSON formatted as above and the result will be the xlsx blob

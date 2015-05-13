@@ -1,8 +1,6 @@
 {
-  "name": "node-alert",
+  "name": "xlsx-compiler",
   "dependencies": {
-    "socket.io": "0.9.*",
-    "xlsx": "0.7.*",
-    "winston": "0.8.*"
+    "xlsx": "0.8.*"
   }
 }

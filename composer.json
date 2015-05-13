@@ -11,6 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {},
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/"
+    },
     "autoload": {
         "psr-4": {
             "Websix\\XlsxCompiler\\": [

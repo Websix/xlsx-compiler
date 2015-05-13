@@ -8,9 +8,8 @@ php:
   - nightly
 
 before_script:
-    - cd node
-    - npm install
-    - composer install
+  - composer self-update
+  - composer install
 
 script:
-    - vendor/bin/phpunit tests/
+  - vendor/bin/phpunit tests/

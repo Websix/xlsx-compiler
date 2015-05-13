@@ -1,0 +1,8 @@
+{
+  "name": "node-alert",
+  "dependencies": {
+    "socket.io": "0.9.*",
+    "xlsx": "0.7.*",
+    "winston": "0.8.*"
+  }
+}

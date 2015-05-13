@@ -46,6 +46,7 @@ class XlsxCompiler {
             throw new RuntimeException('Não foi possível iniciar o processo');
         }
 
+        return $this;
     }
 
     /**
@@ -86,7 +87,6 @@ class XlsxCompiler {
             throw new RuntimeException($error);
 
         return $result;
-
     }
 
 }

@@ -3,7 +3,7 @@ XlsxCompiler
 
 Takes a JSON in format:
 
-``` JSON
+``` JavaScript
 {
     "Sheet name": [
         {"A": "A1 Value", "B": "B1 Value"}, // Row

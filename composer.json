@@ -1,0 +1,14 @@
+{
+    "name": "websix/xlsx-compiler",
+    "description": "Xlsx compiler aimed in to be simple, fast and straight to the point",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reinaldo A. C. Rauch",
+            "email": "reinaldorauch@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

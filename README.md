@@ -1,6 +1,8 @@
 XlsxCompiler
 ============
 
+[![Build Status](https://travis-ci.org/Websix/xlsx-compiler.svg?branch=1.1.1)](https://travis-ci.org/Websix/xlsx-compiler)
+
 Takes a JSON in format:
 
 ``` JavaScript

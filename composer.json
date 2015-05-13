@@ -11,10 +11,6 @@
     ],
     "minimum-stability": "stable",
     "require": {},
-    "scripts": {
-        "post-install-cmd": "Websix\\XlsxCompiler\\Installer\\Install::postInstallCommand",
-        "post-update-cmd": "Websix\\XlsxCompiler\\Installer\\Install::postUpdateCommand"
-    },
     "autoload": {
         "psr-4": {
             "Websix\\XlsxCompiler\\": [
@@ -22,5 +18,8 @@
                 "tests/"
             ]
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
     }
 }

@@ -10,5 +10,17 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-install-cmd": "Websix\\XlsxCompiler\\Installer\\Install::postInstallCommand",
+        "post-update-cmd": "Websix\\XlsxCompiler\\Installer\\Install::postUpdateCommand"
+    },
+    "autoload": {
+        "psr-4": {
+            "Websix\\XlsxCompiler\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
 }

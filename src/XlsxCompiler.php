@@ -1,21 +1,11 @@
 <?php
 
+namespace Websix\XlsxCompiler;
+
 /**
  * Class for creating xls in nodejs
  */
-class XlsCompiler {
-
-    /**
-     * Integer constant to time in seconds of the timeout in waiting for
-     * socket signals
-     */
-    const SOCKET_CREATION_TIMEOUT = 5;
-
-    /**
-     * Integer constant to time in seconds of the timeout in waiting for
-     * the file to compile
-     */
-    const FILE_COMPILE_TIMEOUT = 100;
+class XlsxCompiler {
 
     /**
      * Subprocess resource object
@@ -52,8 +42,9 @@ class XlsCompiler {
         // Spawnando o subprocesso
         $this->process = proc_open($cmd, $std, $this->subPipes, $cwd);
 
-        if(!is_resource($this->process))
+        if(!is_resource($this->process)) {
             throw new RuntimeException('Não foi possível iniciar o processo');
+        }
 
     }
 
@@ -62,8 +53,9 @@ class XlsCompiler {
      */
     private function close()
     {
-        if(is_resource($this->process))
+        if(is_resource($this->process)) {
            return proc_close($this->process);
+        }
     }
 
     /**
